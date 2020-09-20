@@ -1,4 +1,4 @@
-Hencrypt
+Hencrypt [![Build Status](https://travis-ci.org/okandavut/hencrypt.svg?branch=master)](https://travis-ci.org/okandavut/hencrypt)
 =========
 
 A small library that encrypts string values with different libraries.
