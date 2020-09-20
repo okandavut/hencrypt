@@ -1,0 +1,23 @@
+{
+  "name": "hencrypt",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okandavut/hencrypt.git"
+  },
+  "author": "Okan DAVUT <davut.okan@gmail.com> (https://twitter.com/okandavutcom)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okandavut/hencrypt/issues"
+  },
+  "homepage": "https://github.com/okandavut/hencrypt#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}
