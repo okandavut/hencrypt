@@ -1,4 +1,4 @@
-Hencrypt [![Build Status](https://travis-ci.org/okandavut/hencrypt.svg?branch=master)](https://travis-ci.org/okandavut/hencrypt)
+Hencrypt [![Build Status](https://travis-ci.org/okandavut/hencrypt.svg?branch=master)](https://travis-ci.org/okandavut/hencrypt) [![Coverage Status](https://coveralls.io/repos/github/okandavut/hencrypt/badge.svg?branch=master)](https://coveralls.io/github/okandavut/hencrypt?branch=master)
 =========
 
 A small library that encrypts string values with different libraries.
