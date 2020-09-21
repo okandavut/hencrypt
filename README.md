@@ -30,3 +30,10 @@ A small library that encrypts and decrypts string values with key.
 ## Contributing
 
 In lieu of a formal style guide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code.
+
+## Technologies
+- JavaScript
+- Mocha for testing
+- Istanbul for coverage of tests.
+- Travis for continuous integration
+- Coveralls for check coverage after every build
