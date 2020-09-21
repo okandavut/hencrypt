@@ -1,25 +1,31 @@
-Hencrypt [![Build Status](https://travis-ci.org/okandavut/hencrypt.svg?branch=master)](https://travis-ci.org/okandavut/hencrypt) [![Coverage Status](https://coveralls.io/repos/github/okandavut/hencrypt/badge.svg?branch=master)](https://coveralls.io/github/okandavut/hencrypt?branch=master)
-=========
+# Hencrypt [![Build Status](https://travis-ci.org/okandavut/hencrypt.svg?branch=master)](https://travis-ci.org/okandavut/hencrypt) [![Coverage Status](https://coveralls.io/repos/github/okandavut/hencrypt/badge.svg?branch=master)](https://coveralls.io/github/okandavut/hencrypt?branch=master)
 
-A small library that encrypts string values with different libraries.
+A small library that encrypts and decrypts string values with key.
 
 ## Installation
 
-  `npm install @okandavutcom/hencrypt`
+`npm install @okandavutcom/hencrypt`
 
 ## Usage
 
-    const { encryptMD5 } = require('@okandavutcom/hencrypt');
+    const { encrypt } =  require('@okandavutcom/hencrypt');
 
-    var md5EncryptedString = encryptMD5('test');
-  
-  
-  Output should be `098f6bcd4621d373cade4e832627b4f6`
+    var result = encrypt("the secret string","mySecretSalt");
 
+    // Output should be `098f6bcd4621d373cade4e832627b4f6`
+
+---
+
+    const { decrypt } =  require('@okandavutcom/hencrypt');
+
+    var result = decrypt('7c606d287b6d6b7a6d7c287b7c7a61666f','mySecretSalt')
+
+
+    // Output should be `the secret string`
 
 ## Tests
 
-  `npm test`
+`npm test`
 
 ## Contributing
 
